@@ -14,10 +14,10 @@ public class RestApiDefinition {
     @Steps
     ApiClient jhon;
 
-    String URL = "";
+    String URL = "www.bcp.com.pe";
 
 
-    @Given("the URL {}")
+    @Given("the URL {www.bcp.com.pe}")
     public void the_url_is_ok(String url) {
         assertThat(url).isNotEmpty();
         URL = url;
@@ -25,11 +25,11 @@ public class RestApiDefinition {
 
     @When("I check the application status")
     public void i_check_the_application_status() {
-        throw new NotImplementedException("please implement this step");
+        throw new NotImplementedException("pe.com.bcp.techcases.testautomation.ui.actors.ApiClientr");
     }
 
     @Then("the API should contain {}")
     public void the_API_should_return(String expectedMessage) {
-        throw new NotImplementedException("please implement this step");
+        throw new NotImplementedException("pe.com.bcp.techcases.testautomation.ui.actors.ApiClient");
     }
 }
